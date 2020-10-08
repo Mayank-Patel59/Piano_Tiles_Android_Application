@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimeSelectionActivity"
+    android:background="@drawable/background">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alltime"
+        android:layout_marginTop="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selectsec"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginRight="66dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/rgtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:id="@+id/thirtysec"
+            android:layout_marginTop="141dp"
+            android:layout_marginLeft="110dp"
+            android:text="30"
+            android:textColor="#FFFFFF"
+            />
+        <RadioButton
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:id="@+id/sixtysec"
+            android:layout_marginLeft="110dp"
+            android:checked="true"
+            android:text="60"
+            android:textColor="#FFFFFF"
+            />
+        <RadioButton
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:id="@+id/onetwentysec"
+            android:layout_marginLeft="110dp"
+            android:text="120"
+            android:textColor="#FFFFFF"
+            />
+        <RadioButton
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:id="@+id/onefiftysec"
+            android:layout_marginLeft="110dp"
+            android:text="150"
+            android:textColor="#FFFFFF"
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/cont"
+        android:layout_width="360dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/continuebutton"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        />
+
+
+</RelativeLayout>
